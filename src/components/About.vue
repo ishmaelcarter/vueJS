@@ -1,6 +1,8 @@
 <template>
   <div class="app-body">
+  <div class='home-wrapper'>
     <router-link to="/" class='home'></router-link>
+  </div>
     <img src='../assets/headshot.png'></img>
   </div>
 </template>
@@ -42,7 +44,7 @@ li {
 }
 
 .home {
-  margin: 5%;
+  margin: 3%;
   background-color: #E0F7FA;
   background-image: url('../assets/home.png');
   background-size: 80%;
@@ -123,14 +125,7 @@ img {
   opacity: .9;
 }
 
-.app-body div:hover {
-      -moz-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      opacity: 1;
-      z-index: 1;
-}
+
 
 #about {
   background: url('../assets/about.png') center no-repeat;
@@ -192,5 +187,10 @@ button {
   background: #fafafa;
   position: relative;
   border-radius: 50%;
+}
+
+.home-wrapper {
+  display: block;
+  width: 100%;
 }
 </style>

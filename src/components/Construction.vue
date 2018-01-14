@@ -1,6 +1,8 @@
 <template>
   <div class="app-body">
+  <div class='home-wrapper'>
     <router-link to="/" class='home'></router-link>
+  </div>
     <div class="demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__supporting-text">
     Sorry, this page is currently under construction.
@@ -50,7 +52,7 @@ li {
 }
 
 .home {
-  margin: 5%;
+  margin: 3%;
   background-color: #E0F7FA;
   background-image: url('../assets/home.png');
   background-size: 80%;
@@ -112,14 +114,6 @@ img {
   opacity: .9;
 }
 
-.app-body div:hover {
-      -moz-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      opacity: 1;
-      z-index: 1;
-}
 
 #about {
   background: url('../assets/about.png') center no-repeat;
@@ -173,7 +167,7 @@ button {
 
 .demo-card-wide.mdl-card {
   display: block;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 .demo-card-wide > .mdl-card__title {
@@ -194,5 +188,11 @@ button {
 
 .mdl-card__supporting-text {
   font-family: 'Nunito', sans-serif;
+  width: 100%;
+}
+
+.home-wrapper {
+  display: block;
+  width: 100%;
 }
 </style>
