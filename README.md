@@ -1,6 +1,6 @@
 # vuesite
 
-> A Vue.js project
+> A Vue.js project, deployed at homepage-vue.herokuapp.com
 
 ## Build Setup
 
